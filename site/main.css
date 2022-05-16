@@ -68,7 +68,7 @@ a {
   font-family: Questrial;
 }
 
-.b1 {
+.b1, .b2, .b3 {
   margin-top: 20px;
   margin-left: 10px;
   border: solid #a67a5b;
@@ -78,15 +78,6 @@ a {
   font-size: 15px;
   color: black;
   font-weight: bold;
-  background-color: #a67a5b;
-}
-
-.b2, .b3 {
-  margin-top: 20px;
-  margin-left: 10px;
-  border: solid #a67a5b;
-  border-radius: 20px;
-  padding: 8px;
   background-color: #a67a5b;
 }
 
