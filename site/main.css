@@ -1,12 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 body, html {
-  user-select: none;
   height: 100%;
   overflow: hidden;
   background-color: #a67a5b;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .wrapper {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -49,7 +57,7 @@ body, html {
   height: 150px;
   vertical-align: top;
   padding-left: 40px;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-left: 40px;
   font-size: 18px;
   font-family: Questrial;
@@ -58,5 +66,34 @@ body, html {
 .name {
   font-size: 40px;
   font-family: Questrial;
+}
+
+.b1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  border: solid #a67a5b;
+  border-radius: 20px;
+  padding: 8px;
+  font-family: Questrial;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  background-color: #a67a5b;
+}
+
+.b2, .b3 {
+  margin-top: 20px;
+  margin-left: 10px;
+  border: solid #a67a5b;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: #a67a5b;
+}
+
+.b1:hover, .b2:hover, .b3:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 4px 4px #c19770;
+          box-shadow: 4px 4px #c19770;
 }
 /*# sourceMappingURL=main.css.map */
