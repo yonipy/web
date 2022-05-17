@@ -79,6 +79,7 @@ a {
   color: black;
   font-weight: bold;
   background-color: #a67a5b;
+}
 
 .b1:hover, .b2:hover, .b3:hover {
   -webkit-transition: 0.5s;
@@ -86,4 +87,5 @@ a {
   -webkit-box-shadow: 4px 4px #c19770;
           box-shadow: 4px 4px #c19770;
 }
+
 /*# sourceMappingURL=main.css.map */
