@@ -71,7 +71,7 @@ a {
   font-family: Questrial;
 }
 
-.b1, .b2, .b3 {
+.b1, .b2, .b3, .b4{
   margin-top: 20px;
   margin-left: 10px;
   border: solid #a67a5b;
@@ -84,7 +84,7 @@ a {
   background-color: #a67a5b;
 }
 
-.b1:hover, .b2:hover, .b3:hover {
+.b1:hover, .b2:hover, .b3:hover, .b4:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   transition: 0.5s;
