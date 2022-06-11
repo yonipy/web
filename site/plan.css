@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+    background-color: #a67a5b;
+    user-select: none;
+}
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ho1 {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+}
+
+.b1 {
+    border: solid #a67a5b;
+    border-radius: 20px;
+    padding: 8px;
+    padding: 8px;
+    font-family: Questrial;
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    background-color: #a67a5b;
+}
+
+.b1:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-shadow: 4px 4px #c19770;
+            box-shadow: 4px 4px #c19770;
+}
