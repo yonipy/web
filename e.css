@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
+
 body, html {
   height: 100%;
   overflow: hidden;
   background-color: #a67a5b;
+  animation: bgc 3s infinite;
+}
+
+@keyframes bgc {
 }
 
 a {
@@ -12,14 +17,21 @@ a {
 }
 
 .wrapper {
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   box-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main {
@@ -42,7 +54,8 @@ a {
   width: 150px;
   height: 150px;
   border-radius: 75%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .c2 {
@@ -62,7 +75,7 @@ a {
   font-family: Questrial;
 }
 
-.b1, .b2, .b3 {
+.b1, .b2, .b3, .b4{
   margin-top: 20px;
   margin-left: 10px;
   border: solid #a67a5b;
@@ -73,12 +86,11 @@ a {
   color: black;
   font-weight: bolder;
   background-color: #a67a5b;
+  transition: 0.5s;
 }
 
-.b1:hover, .b2:hover, .b3:hover {
-  transition: 0.5s;
-  transition: 0.5s;
-  box-shadow: 4px 4px #c19770;
+.b1:hover, .b2:hover, .b3:hover, .b4:hover {
+  -webkit-box-shadow: 4px 4px #c19770;
+          box-shadow: 4px 4px #c19770;
 }
-
 /*# sourceMappingURL=main.css.map */
