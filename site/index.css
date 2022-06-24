@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
-a:visited {
+a {
     color: #000000;
-    text-decoration: none;
+
+    a:visited {
+        color: #000000;
+        text-decoration: none;
+    }
 }
+
 
 body, html {
     height: 100%;
@@ -75,7 +80,6 @@ span {
     margin-left: 10px;
     height: 40px;
     width: 65px;
-    color: #000000;
     border: solid 2px #000000;
     padding: 8px;
     font-family: Questrial;
