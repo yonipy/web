@@ -36,7 +36,7 @@ body, html {
 .sec-wrapper {
     border: solid black 2px;
     width: 400px;
-    height: 320px;
+    height: 380px;
 }
 
 .header {
@@ -98,7 +98,6 @@ span {
 .things {
     padding: 10px;
     border: solid black 2px;
-    border-bottom: 0;
     border-left: 0;
     border-right: 0;
     font-family: Questrial;
@@ -107,4 +106,7 @@ span {
 
 }
 
-
+.dstatus {
+    width: 380px;
+    margin-left: 10px;
+}
