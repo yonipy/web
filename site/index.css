@@ -13,9 +13,9 @@
     }
 }
 
-
 a {
     color: #000000;
+    text-decoration: none;
 
     a:visited {
         color: #000000;
@@ -32,8 +32,6 @@ body, html {
 .wrapper {
     user-select: none;
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     justify-content: center;
     box-align: center;
@@ -44,7 +42,7 @@ body, html {
 .sec-wrapper {
     border: solid black 2px;
     width: 400px;
-    height: 380px;
+    height: 315px;
 }
 
 .header {
@@ -79,13 +77,21 @@ body, html {
     font-size: 20px;
 }
 
+.yoni {
+    transition: all ease-in-out .8s;
+}
+
+.yoni:hover {
+    font-size: 40px;
+}
+
 span {
     font-family: Questrial;
     font-weight: bold;
     font-size: 35px;
 }
 
-.b1, .b2, .b3, .b4{
+.b1, .b2 {
     transition: 0.5s;
     margin-top: 20px;
     margin-left: 10px;
@@ -99,7 +105,7 @@ span {
     background-color: #ffffff;
   }
   
-  .b1:hover, .b2:hover, .b3:hover, .b4:hover {
+  .b1:hover, .b2:hover {
     box-shadow: 4px 4px #00000071;
   }
 
@@ -108,13 +114,9 @@ span {
     border: solid black 2px;
     border-left: 0;
     border-right: 0;
+    border-bottom: 0;
     font-family: Questrial;
     font-size: 18px;
     font-weight: bolder;
 
-}
-
-.dstatus {
-    width: 380px;
-    margin-left: 10px;
 }
