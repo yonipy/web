@@ -111,6 +111,7 @@ span {
 
 .things {
     padding: 10px;
+    text-align: center;
     border: solid black 2px;
     border-left: 0;
     border-right: 0;
@@ -118,5 +119,12 @@ span {
     font-family: Questrial;
     font-size: 18px;
     font-weight: bolder;
+}
 
+.song {
+    padding: 10px;
+    font-family: Questrial;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
 }
