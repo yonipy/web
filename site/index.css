@@ -25,7 +25,6 @@ a {
 
 body, html {
     height: 100%;
-    overflow: hidden;
     animation: preload 5s;
 }
 
@@ -42,7 +41,7 @@ body, html {
 .sec-wrapper {
     border: solid black 2px;
     width: 400px;
-    height: 305x;
+    height: 305px;
 }
 
 .header {
@@ -122,7 +121,7 @@ span {
 }
 
 .song {
-    padding: 10px;
+    padding-top: 100px;
     font-family: Questrial;
     font-size: 18px;
     font-weight: bolder;
