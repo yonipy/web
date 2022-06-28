@@ -56,21 +56,21 @@
       This is my personal portfolio, as it will updated through time to time! Make sure you keep checking out my website as it will get a lot of revamps based on my mood & feelings! 
     </div>
 
-    <div class="song" id="song">
+    <!--<div class="song" id="song">
 
-    </div>
+    </div>-->
 
   </div>
 </div>
 
-<script>
+<!--<script>
   fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=yonipy&api_key=c620c17ce18ac80d09bd758ccf576607&limit=1&nowplaying="true"&format=json')
     .then(response => response.json())
     .then(data => {
     let x = `Current/Last on Spotify:<br>Song: ${data.recenttracks.track[0].name}<br>Artist: ${data.recenttracks.track[0].artist['#text']} <br> <img src="${data.recenttracks.track[0].image['1']['#text']}" alt="icon">`
     document.getElementById("song").innerHTML = x 
   })
-</script>
+</script>-->
 
 
 </html>
